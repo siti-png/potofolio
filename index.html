@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- AOS Scroll -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!--Link ke css-->
+    <link rel="stylesheet" href="css/style.css" />
+    <!--poppins-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@200&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comforter&family=Outfit:wght@200&display=swap"
+      rel="stylesheet"
+    />
+    <title>Portofolio | siti nur aisyah</title>
+  </head>
+  <body>
+    <nav>
+      <div class="title">
+      <a href="#">siti nur aisyah</a>
+      </div>
+      </div>
+      <div class="menu">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#project">Project</a></li>
+          <li><a href="#contactme">Contact Me</a></li>
+        </ul>
+      </div>
+      </div>
+    </nav>
+
+    <div class="container-profil">
+    <div class="fotoprofil">
+        <img src="img/siti.jpeg" />
+      </div>
+
+    <div class="deskprofil">
+        <h1>siti nur aisyah</h1>
+        <p>
+          Saya adalah seorang siswa jurusan RPL di SMKN 8 JEMBER.
+          bidang yang saya senangi yaitu web developer,karena bagi saya web developer ini sungguh menguntungkan bagi saya
+      
+        </p>
+      </div>
+    </div>
+
+    <section id="about">
+      <div class="container-about">
+        <div class="aboutme">
+          <h1>ABOUT ME</h1>
+          <p>
+            Nama lengkap saya siti nur aisyah. Umur saya sekarang 17
+            Tahun. Saya lahir di jember, Jawa timur.
+            
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="project">
+      <div class="container-prj">
+        <div class="project">
+
+          <h1>PROJECT</h1>
+          <p>Beberapa project yang pernah saya kerjakan dalam waktu terakhir</p>
+        </div>
+      </div>
+      <div class="container-project">
+        <div class="card">
+          <div class="header">
+            <img src="img/1.jpeg" />
+          </div>
+          <div class="content">
+            <p>
+          Hypertext preprocessor atau hanya PHP saja adalah bahasa skrip dengan fungsi umum yang terutama digunakan untuk pengembangan web.
+            </p>
+          </div>
+        </div>
+        <div class="card ">
+          <div class="header">
+            <img src="img/2.jpeg" />
+          
+            </div>
+            <div class="conten">
+            </p>
+                 cascading style sheets (css) merupakan bahasa pemrograman 
+                   yang digunakan untuk menentukan bagaimana dokumen dan website akan disajikan.   
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="header">
+            <img src="img/3.jpeg" />
+          </div>
+          <div class="content">
+            <p>
+              HTMLadalah singkatan dari Hypertext markup language,html merupakan
+               salah satu bahasa penggodean atau pemograman yang digunakan untuk
+                membuat halaman website yang ditampilkan pada web browser.
+      
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="contactmen">
+      <div class="contact">
+        <div class="contact-form">
+          <h1>CONTACT ME</h1>
+          <div class="txtb">
+            <label>Nama Lengkap :</label>
+            <input
+              type="text"
+              name=""
+              value=""
+              placeholder="Tulis Nama disini..."
+            />
+          </div>
+          <div class="txtb">
+            <label>Email :</label>
+            <input
+              type="email"
+              name=""
+              value=""
+              placeholder="Tulis Email disini..."
+            />
+          </div>
+          <div class="txtb">
+            <label>Nomor HP :</label>
+            <input
+              type="text"
+              name=""
+              value=""
+              placeholder="Tulis Nomor HP disini..."
+            />
+          </div>
+          <div class="txtb">
+            <label>Pesan :</label>
+            <textarea placeholder="Tulis Pesan Anda disini..."></textarea>
+          </div>
+          <a class="btn">Kirim</a>
+        </div>
+      </div>
+    </section>
+    <div class="footer">
+      <h1>Created by  siti nur aisyah
+      </h1>
+    </div>
+    <script>
+      document.addEventListener("scroll", function () {
+        const navbar = document.querySelector("nav");
+
+        if (this.body.scrollTop > 1 || this.documentElement.scrollTop > 1) {
+          navbar.classList.add("nav-scrolled", "fixed-top");
+        } else {
+          navbar.classList.remove("nav-scrolled", "fixed-top");
+        }
+      });
+    </script>
+  </body>
+</html>
